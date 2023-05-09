@@ -1,0 +1,62 @@
+.{
+    margin: 0px;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap: 10
+          
+}
+
+.div{
+    border: 5px solid black;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 90%;
+        
+}    
+.bloque-1{
+    background-color: red;
+    
+}
+.bloque-2{ 
+    background-color:yellow
+}
+.bloque-3{
+    background-color: green;
+}
+.bloque-4{
+    background-color: aqua;
+}
+.bloque-5{
+    background-color: cornflowerblue;
+}
+.bloque-6{
+    background-color: crimson;}
+.bloque-7{
+    background-color:deeppink
+}  
+.bloque-8{
+    background-color:darkorange;
+}  
+.bloque-9{
+    background-color: blueviolet;
+}
+@media(max-width: 480px){
+    .contenedor{
+        grid-template-columns: 1fr;
+        
+    }    
+}
+/*@media(max-width: 768px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr ;
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        qué poner para que lo reconozca. Tienen los 2 el mismo nombre
+        contenedor y me reconoceel último.  
+    }
+}*/
